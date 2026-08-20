@@ -4,7 +4,8 @@
 ## Step to install onto your ESP
 Note: there is a data folder_ which is where you store the build file from the Front End Repo.
 - If there is no file in the data folder or you want to change/ update the design of the frontend please follow these step
-  - Open Vscode in where you store your frontend
+  - Open Vscode in where you store your frontend or clone from [this Repo](https://github.com/CKMPeter/IOT_Smart_Farming_FE)
+  Note: if clone, then you need to run `npm install` first, more detail please visit the link.
   - Run `npm run build`.
   - Copy the content of the build folder and put it into the data folder.
 ### To have a upload the code and have everything on your ESP
