@@ -10,7 +10,11 @@ Note: there is a data folder_ which is where you store the build file from the F
 ### To have a upload the code and have everything on your ESP
 - First run `Upload Filesystem Image` (**IMPORTANT**: if you forgot this step, your sever will not have an UI).
 - Second run `Upload and Monitor` for debugging
-
+## How it work?
+- The ESP has an intial setup state, if there is no wifi it will run in Access Point (AP) Mode
+- While in the AP mode the ESP will present itself in your wifi setting as "ESP32-Setup" with the preset password is "12345678"
+- After connecting to the Access Point an IP will be displayed on the screen, open it in the browser, and use your wifi credential to connect.
+- If successfully given a wifi credential the ESP will run in Station (STA) Mode, and another IP, use it to access the dashboard.
 ## Other Detail
 - Wiring diagram for this project
 - <img width="1238" height="860" alt="image" src="https://github.com/user-attachments/assets/0874627c-88e0-4325-96cf-ebbe54cce892" />
